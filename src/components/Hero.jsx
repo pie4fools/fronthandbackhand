@@ -6,7 +6,7 @@ const Hero = () => {
     // Hero rectangle 
     <div className='main'>
         <div className=''>
-            <h1 className='text-[#00dfd4] font-bold p-2 text-3xl'>Front Hand Back-Hand</h1>
+            <h1 className='text-black font-bold p-2 text-3xl'>Front Hand Back-Hand</h1>
             <p className='text-sm font-bold md:py-6'>Sign-up - Login - Manipulate data on the Back-end from the Front-end</p>
             <div className='flex justify-center items-center'>  
             </div>
@@ -19,7 +19,7 @@ const Hero = () => {
             to="Footer"
             className="cursor-pointer"
           >
-            <button id="Footer" className='getstartedbtn'>Projects</button>
+            <button id="Footer" className='getstartedbtn'>Get Started</button>
           </Link>
         </div>
     </div>
