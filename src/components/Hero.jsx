@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import  '../images/vercontrolimg.svg'
 
 const Hero = () => {
   return (
@@ -21,6 +22,23 @@ const Hero = () => {
           >
             <button id="Footer" className='getstartedbtn'>Get Started</button>
           </Link>
+        </div>
+        <div className='card-container'>
+          <div className='card1'>
+            <img src="../images/vercontrolimg.svg" alt=''></img>
+            <p className='cardptag'>Version control from GitHub</p>
+          </div>
+          <div className='card2'>
+          <p className='cardptag'>CI/CD Pipeline from GitHub Flows</p>
+          </div>
+          <div className='card3'>
+          <p className='cardptag'>Product that is constantly improving</p>
+          </div>
+        </div>
+        <div>
+        <div className='signupboxcontainer'>
+          <div className='signupboxsubmit'></div>
+        </div>
         </div>
     </div>
   )

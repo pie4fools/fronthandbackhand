@@ -29,3 +29,69 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+
+.card-container {
+  margin-top: 400px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card1 {
+width: 300px;
+height: 400px;
+margin-right: 40px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+border-radius: 48px;
+}
+
+.cardptag {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.card2 {
+width: 300px;
+height: 400px;
+margin-right: 40px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+border-radius: 48px;
+}
+
+.card3 {
+width: 300px;
+height: 400px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+border-radius: 48px;
+}
+
+.signupboxcontainer {
+  width: 1240px;
+  height: 661px;
+  left: -5px;
+  background: black;
+  /* background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+  border-radius: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+.signupboxsubmit { 
+  width: 626px;
+  height: 594px;
+  left: 741px;
+  align-self: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 48px;
+}
