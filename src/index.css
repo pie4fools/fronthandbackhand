@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
 
 body {
   font-family: sans-serif;
+  font-family: jost;
 }
 
 .main {
@@ -39,14 +41,12 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
 }
-
-.card1 {
-width: 300px;
-height: 400px;
-margin-right: 40px;
-background: #FFFFFF;
-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
-border-radius: 48px;
+.cardimages {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  scale: 0.9;
 }
 
 .cardptag {
@@ -55,23 +55,63 @@ border-radius: 48px;
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
+  color: rgba(1, 8, 81, 0.7);
 }
 
+.pipelineimg {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pipelineptag {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  margin-top: 95px;
+  margin-left: 15px;
+  color: rgba(1, 8, 81, 0.7);
+}
+
+.cardptag {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  margin-top: 80px;
+  margin-left: 15px;
+  
+}
+
+.card1 {
+  width: 300px;
+  height: 400px;
+  margin-right: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 48px;
+}
+
+
 .card2 {
-width: 300px;
-height: 400px;
-margin-right: 40px;
-background: #FFFFFF;
-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
-border-radius: 48px;
+  width: 300px;
+  height: 400px;
+  margin-right: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 48px;
 }
 
 .card3 {
-width: 300px;
-height: 400px;
-background: #FFFFFF;
-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
-border-radius: 48px;
+  width: 300px;
+  height: 400px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 48px;
 }
 
 .signupboxcontainer {
@@ -91,9 +131,46 @@ border-radius: 48px;
   width: 626px;
   height: 594px;
   left: 741px;
-  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: flex-start;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
   border-radius: 48px;
+}
+.emailbox {
+  position: absolute;
+  background: black;
+  width: 442px;
+  height: 93px;
+  margin-top: 75px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.passwordbox {
+  position: absolute;
+  background: black;
+  width: 442px;
+  height: 93px;
+  margin-: 75px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.reenterpasswordbox {
+  position: absolute;
+  background: black;
+  width: 442px;
+  height: 93px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
 }

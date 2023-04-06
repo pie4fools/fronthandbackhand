@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import  '../images/vercontrolimg.svg'
+import  vercontrolimg from '../images/vercontrolimg.svg'
+import pipelineimg from '../images/pipelineimg.svg'
+import constantimproveimg from '../images/constantimproveimg.svg'
 
 const Hero = () => {
   return (
@@ -25,19 +27,25 @@ const Hero = () => {
         </div>
         <div className='card-container'>
           <div className='card1'>
-            <img src="../images/vercontrolimg.svg" alt=''></img>
-            <p className='cardptag'>Version control from GitHub</p>
+            <img class='cardimages' src={vercontrolimg} alt='Computer monitor showing code'></img>
+            <p class='cardptag'>Version control from GitHub</p>
           </div>
           <div className='card2'>
-          <p className='cardptag'>CI/CD Pipeline from GitHub Flows</p>
+            <img class='pipelineimg' src={pipelineimg} alt='Pipes connecting'></img>
+            <p class='pipelineptag'>CI/CD Pipeline from GitHub Flows</p>
           </div>
           <div className='card3'>
-          <p className='cardptag'>Product that is constantly improving</p>
+            <img class='cardimages' src={constantimproveimg} alt='Cartoon head of a man with a diamond as a thought bubble'></img>
+            <p class='cardptag'>Product that is constantly improving</p>
           </div>
         </div>
         <div>
         <div className='signupboxcontainer'>
-          <div className='signupboxsubmit'></div>
+          <div className='signupboxsubmit'>
+            <input class='emailbox' />
+            <input class='passwordbox' />
+            <input class='reenterpasswordbox' />
+          </div>
         </div>
         </div>
     </div>
