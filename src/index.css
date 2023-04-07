@@ -11,14 +11,14 @@ body {
 }
 
 .main {
-  position: absolute;
-  width: 1200px;
-  height: 448px;
-  left: 58px;
-  top: 136px;
+  width: 95vw;
+  height: 40vw;
+  position: relative; 
+  max-width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
   background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #FF83B7 100%);
   border-radius: 48px 48px 300px 48px;
-  max-width: 1440px;
 }
 
 .getstartedbtn {
@@ -36,7 +36,8 @@ body {
 }
 
 .card-container {
-  margin-top: 400px;
+  margin-top: 150px;
+  margin-right: 50px;
   padding-bottom: 80px;
   display: flex;
   justify-content: flex-end;
@@ -56,7 +57,7 @@ body {
   font-family: 'Jost';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 120%;
   color: rgba(1, 8, 81, 0.7);
 }
@@ -71,11 +72,11 @@ body {
 .pipelineptag {
   font-family: 'Jost';
   font-style: normal;
-  font-weight: 800;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 24px;
   line-height: 120%;
   margin-top: 95px;
-  margin-left: 15px;
+  text-align: center;
   color: rgba(1, 8, 81, 0.7);
 }
 
@@ -83,10 +84,10 @@ body {
   font-family: 'Jost';
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 120%;
   margin-top: 80px;
-  margin-left: 15px;
+  text-align: center;
   
 }
 

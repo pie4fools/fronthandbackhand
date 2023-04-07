@@ -1,10 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import logo from '../images/studylogonavbar.svg'
 
 const Navbar = () => {
     return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white z-10'>
-        <motion.h1
+        <motion.img
     initial={{
        x: -500,
        opacity: 0, 
@@ -14,7 +15,7 @@ const Navbar = () => {
         opacity: 1,
     }}
     // LOGO area
-    transition={{ duration: 1.5 }}  className='w-full text-3xl font-bold text-black'>LOGO</motion.h1>
+    transition={{ duration: 1.5 }} src={logo} className='logo'></motion.img>
         <motion.ul
     initial={{
        x: 100,
