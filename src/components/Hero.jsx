@@ -3,6 +3,8 @@ import { Link } from 'react-scroll'
 import  vercontrolimg from '../images/vercontrolimg.svg'
 import pipelineimg from '../images/pipelineimg.svg'
 import constantimproveimg from '../images/constantimproveimg.svg'
+import facebooklogin from '../images/facebookloginimg.svg'
+import googlesignin from '../images/googlesigninimg.svg'
 
 const Hero = () => {
   return (
@@ -41,10 +43,17 @@ const Hero = () => {
         </div>
         <div>
         <div className='signupboxcontainer'>
+          <div className='signupptagcontainer'>
+          <p className='signupboxptag'>Sign Up Now</p>
+          <p className='signupboxptagmiddle'>Free access to a live chat</p>
+          <p className='signupboxptag'>Create a free profile and start chatting</p>
+          </div>
           <div className='signupboxsubmit'>
             <input class='emailbox' />
             <input class='passwordbox' />
             <input class='reenterpasswordbox' />
+          <img class='ssobtns' src={googlesignin} alt='google sign in button'></img>
+          <img class='ssobtns' src={facebooklogin} alt='facebook login button'></img>
           </div>
         </div>
         </div>

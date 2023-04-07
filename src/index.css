@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 
 body {
-  font-family: sans-serif;
-  font-family: jost;
+  font-family: jost, Istok Web, Inter, sans-serif;
 }
 
 .main {
@@ -17,7 +19,6 @@ body {
   background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #FF83B7 100%);
   border-radius: 48px 48px 300px 48px;
   max-width: 1440px;
-  
 }
 
 .getstartedbtn {
@@ -40,6 +41,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 131, 183, 0.74) 0%, rgba(217, 217, 217, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .cardimages {
   margin-top: 30px;
@@ -118,34 +121,64 @@ body {
   width: 1240px;
   height: 661px;
   left: -5px;
-  background: black;
-  /* background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 131, 183, 0.74) 0%, rgba(217, 217, 217, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 48px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+
   padding-right: 40px;
+}
+
+.signupptagcontainer {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.signupboxptagmiddle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+
+  color: black;
+}
+
+.signupboxptag {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #010851;
 }
 
 .signupboxsubmit { 
   width: 626px;
   height: 594px;
   left: 741px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: flex-start;
+  display: inline-block;
+  box-sizing: border-box;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
   border-radius: 48px;
 }
 .emailbox {
-  position: absolute;
   background: black;
   width: 442px;
   height: 93px;
   margin-top: 75px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -153,11 +186,15 @@ body {
 }
 
 .passwordbox {
-  position: absolute;
   background: black;
   width: 442px;
   height: 93px;
   margin-: 75px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -165,12 +202,25 @@ body {
 }
 
 .reenterpasswordbox {
-  position: absolute;
   background: black;
   width: 442px;
   height: 93px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
+}
+
+.ssobtns {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 30px;
 }
