@@ -51,7 +51,10 @@ const Hero = () => {
           <div className='signupboxsubmit'>
             <input class='emailbox' />
             <input class='passwordbox' />
-            <input class='reenterpasswordbox' />
+          <div class='loginbuttonbox'>
+            <a class='loginbutton' href=''></a>
+            <a class='signupbutton' href=''></a>
+          </div>
           <img class='ssobtns' src={googlesignin} alt='google sign in button'></img>
           <img class='ssobtns' src={facebooklogin} alt='facebook login button'></img>
           </div>
