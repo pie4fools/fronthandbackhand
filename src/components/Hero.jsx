@@ -49,11 +49,12 @@ const Hero = () => {
           <p className='signupboxptag'>Create a free profile and start chatting</p>
           </div>
           <div className='signupboxsubmit'>
-            <input class='emailbox' />
-            <input class='passwordbox' />
+          <form action='POST'>
+            <input type="email" class='emailbox'onChange={(e)=>{setEmail(e.target.value)}} placeholder='E-Mail'/>
+            <input type="password" class='passwordbox'onChange={(e)=>{setPassword(e.target.value)}} placeholder='Password'/></form>
           <div class='loginbuttonbox'>
-            <a class='loginbutton' href=''></a>
-            <a class='signupbutton' href=''></a>
+            <a class='loginbutton' href='' type='submit'>Login</a>
+            <a class='signupbutton' href=''>Sign-Up</a>
           </div>
           <img class='ssobtns' src={googlesignin} alt='google sign in button'></img>
           <img class='ssobtns' src={facebooklogin} alt='facebook login button'></img>
