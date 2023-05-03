@@ -3,8 +3,7 @@ import { Link } from 'react-scroll'
 import  vercontrolimg from '../images/vercontrolimg.svg'
 import pipelineimg from '../images/pipelineimg.svg'
 import constantimproveimg from '../images/constantimproveimg.svg'
-import facebooklogin from '../images/facebookloginimg.svg'
-import googlesignin from '../images/googlesigninimg.svg'
+import Login from './Login.js'
 
 const Hero = () => {
   return (
@@ -41,26 +40,7 @@ const Hero = () => {
             <p class='cardptag'>Product that is constantly improving</p>
           </div>
         </div>
-        <div>
-        <div className='signupboxcontainer'>
-          <div className='signupptagcontainer'>
-          <p className='signupboxptag'>Sign Up Now</p>
-          <p className='signupboxptagmiddle'>Free access to a live chat</p>
-          <p className='signupboxptag'>Create a free profile and start chatting</p>
-          </div>
-          <div className='signupboxsubmit'>
-          <form action='POST'>
-            <input type="email" class='emailbox'onChange={(e)=>{setEmail(e.target.value)}} placeholder='E-Mail'/>
-            <input type="password" class='passwordbox'onChange={(e)=>{setPassword(e.target.value)}} placeholder='Password'/></form>
-          <div class='loginbuttonbox'>
-            <a class='loginbutton' href='' type='submit'>Login</a>
-            <a class='signupbutton' href=''>Sign-Up</a>
-          </div>
-          <img class='ssobtns' src={googlesignin} alt='google sign in button'></img>
-          <img class='ssobtns' src={facebooklogin} alt='facebook login button'></img>
-          </div>
-        </div>
-        </div>
+        <Login />
     </div>
   )
 }
