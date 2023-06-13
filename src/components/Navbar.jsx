@@ -26,15 +26,12 @@ const Navbar = () => {
         opacity: 1,
     }}
     transition={{ duration: 1.5 }} className='flex'>
-        {/* Sign up button */}
-            <a className='border-slate-300 border-2 w-[90px] h-[34px] rounded-md text-center text-xs semi-bold mt-7 mx-auto py-1.5 z-10 text-black hover:bg-black hover:text-white hover:border-black focus:ring focus:ring-white-300 transition ease-in-out mr-4' target="_blank" rel="noreferrer">Sign Up</a>
         {/* Login button */}
-            <a className='border-slate-300 border-2 w-[90px] h-[34px] rounded-md text-center text-xs semi-bold mt-7 mx-auto py-1.5 z-10 text-black hover:bg-black hover:text-white hover:border-black focus:ring focus:ring-white-300 transition ease-in-out' target="_blank" rel="noreferrer">Login</a>
+            <a className='border-black border-2 w-[90px] h-[38px] rounded-md text-center text-sm semi-bold mt-7 mx-auto py-1.5 z-10 text-black hover:bg-black hover:text-white hover:border-black focus:ring focus:ring-white-300 transition ease-in-out' target="_blank" rel="noreferrer">Login</a>
             <div className="z-10">
         </div>
         </motion.ul>
     </div>
-    
   )
 }
 
